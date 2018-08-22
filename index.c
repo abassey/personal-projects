@@ -12,7 +12,7 @@ int main (int argc, char **argv)
     printf("I want to tell you the kind of person I think you are.\n\n");
       /*printf("you chose %c\n", userChoice);*/
     printf("Would you like that and want to continue?\n Enter 'y' for yes and 'n' for no\t");
-    userChoice = scanf(" %c", &userChoice); /*user choice is not being scanned for some reason*/
+    scanf(" %c", &userChoice); /*user choice is not being scanned for some reason*/
     printf("\n");
       /*printf("you chose %c\n", userChoice); //this is not printing for some reason*/
 
